@@ -1,0 +1,22 @@
+server:
+  port: 996
+  context-path:
+  profiles:
+    active:
+management:
+  server:
+    port: 9001
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+    enabled-by-default: false
+  endpoint:
+    info:
+      enabled: true
+    health:
+      enabled: true
+    shutdown:
+      enabled: true
+
+
