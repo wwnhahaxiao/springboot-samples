@@ -1,0 +1,18 @@
+server:
+  port: 6010
+  context-path:
+  profiles:
+    active:
+spring:
+  datasource:
+    hikari:
+      dynamic-test1:
+        jdbc-url: jdbc:mysql://localhost:3306/dynamicTest1?serverTimezone=UTC
+        username: root
+        password: root
+        driver-class-name: com.mysql.cj.jdbc.Driver
+      dynamic-test2:
+        jdbc-url: jdbc:mysql://localhost:3306/dynamicTest2?serverTimezone=UTC
+        username: root
+        password: root
+        driver-class-name: com.mysql.cj.jdbc.Driver

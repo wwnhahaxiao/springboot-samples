@@ -18,6 +18,7 @@
 		<module>actuator-samples</module>
 		<module>rabbitmq-provider</module>
 		<module>rabbitmq-consumer</module>
+		<module>multiple-datasource</module>
 	</modules>
 
 	<properties>
