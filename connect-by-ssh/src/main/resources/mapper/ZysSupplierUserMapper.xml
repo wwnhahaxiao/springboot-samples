@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.roshan.dao.ZysSupplierUserMapper">
+    <resultMap id="BaseResultMap" type="com.roshan.model.ZysSupplierUser">
+        <id column="user_id" jdbcType="VARCHAR" property="userId"/>
+        <result column="user_code" jdbcType="VARCHAR" property="userCode"/>
+        <result column="password" jdbcType="VARCHAR" property="password"/>
+        <result column="pay_limit" jdbcType="INTEGER" property="payLimit"/>
+        <result column="user_name" jdbcType="VARCHAR" property="userName"/>
+        <result column="mobile" jdbcType="VARCHAR" property="mobile"/>
+        <result column="user_number" jdbcType="VARCHAR" property="userNumber"/>
+        <result column="id_card" jdbcType="VARCHAR" property="idCard"/>
+        <result column="birthday" jdbcType="VARCHAR" property="birthday"/>
+        <result column="sex" jdbcType="TINYINT" property="sex"/>
+        <result column="ethnic_group" jdbcType="VARCHAR" property="ethnicGroup"/>
+        <result column="email" jdbcType="VARCHAR" property="email"/>
+        <result column="user_status" jdbcType="TINYINT" property="userStatus"/>
+        <result column="face_linkman_mobile" jdbcType="VARCHAR" property="faceLinkmanMobile"/>
+        <result column="face_oprate_time" jdbcType="BIGINT" property="faceOprateTime"/>
+        <result column="withhold_status" jdbcType="BIT" property="withholdStatus"/>
+        <result column="withhold_account" jdbcType="VARCHAR" property="withholdAccount"/>
+        <result column="org_id" jdbcType="INTEGER" property="orgId"/>
+        <result column="org_name" jdbcType="VARCHAR" property="orgName"/>
+        <result column="org_code" jdbcType="VARCHAR" property="orgCode"/>
+        <result column="org_full_code" jdbcType="VARCHAR" property="orgFullCode"/>
+        <result column="class_id" jdbcType="INTEGER" property="classId"/>
+        <result column="card_id" jdbcType="VARCHAR" property="cardId"/>
+        <result column="card_code" jdbcType="VARCHAR" property="cardCode"/>
+        <result column="expiry" jdbcType="VARCHAR" property="expiry"/>
+        <result column="unexpired" jdbcType="TINYINT" property="unexpired"/>
+        <result column="supplier_id" jdbcType="INTEGER" property="supplierId"/>
+        <result column="supplier_code" jdbcType="INTEGER" property="supplierCode"/>
+        <result column="update_time" jdbcType="TIMESTAMP" property="updateTime"/>
+        <result column="update_user_id" jdbcType="INTEGER" property="updateUserId"/>
+        <result column="update_user_name" jdbcType="VARCHAR" property="updateUserName"/>
+        <result column="create_user_name" jdbcType="VARCHAR" property="createUserName"/>
+        <result column="create_user_id" jdbcType="INTEGER" property="createUserId"/>
+        <result column="create_time" jdbcType="TIMESTAMP" property="createTime"/>
+        <result column="e_user_id" jdbcType="BIGINT" property="eUserId"/>
+        <result column="height" jdbcType="DOUBLE" property="height"/>
+        <result column="weight" jdbcType="DOUBLE" property="weight"/>
+        <result column="edit_basic_time" jdbcType="TIMESTAMP" property="editBasicTime"/>
+        <result column="last_update_time" jdbcType="TIMESTAMP" property="lastUpdateTime"/>
+        <result column="long_effective" jdbcType="TINYINT" property="longEffective"/>
+        <result column="effective_date" jdbcType="DATE" property="effectiveDate"/>
+        <result column="expiry_date" jdbcType="DATE" property="expiryDate"/>
+        <result column="agreement_status" jdbcType="TINYINT" property="agreementStatus"/>
+        <result column="card_type" jdbcType="TINYINT" property="cardType"/>
+    </resultMap>
+    <select id="getById" parameterType="java.lang.String" resultMap="BaseResultMap">
+        select user_id,user_name from zys_supplier_user where user_id = #{id}
+    </select>
+</mapper>

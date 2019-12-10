@@ -19,6 +19,7 @@
 		<module>rabbitmq-provider</module>
 		<module>rabbitmq-consumer</module>
 		<module>multiple-datasource</module>
+		<module>connect-by-ssh</module>
 	</modules>
 
 	<properties>

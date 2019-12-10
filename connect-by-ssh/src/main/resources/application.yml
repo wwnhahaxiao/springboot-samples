@@ -1,0 +1,13 @@
+server:
+  port: 996
+  context-path:
+spring:
+  profiles:
+    active:
+  datasource:
+    url: jdbc:mysql://localhost:3306/base?serverTimezone=UTC
+    username: sidb
+    password: vFQ8nsab3Ia
+    driver-class-name: com.mysql.jdbc.Driver
+mybatis:
+  mapperlocations: classpath:mapper/*.xml
