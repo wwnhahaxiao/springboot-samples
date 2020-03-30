@@ -16,10 +16,10 @@
 
 	<modules>
 		<module>actuator-samples</module>
-		<module>rabbitmq-provider</module>
-		<module>rabbitmq-consumer</module>
 		<module>multiple-datasource</module>
 		<module>connect-by-ssh</module>
+        <module>dubbo-samples</module>
+		<module>rabbitmq-samples</module>
 	</modules>
 
 	<properties>

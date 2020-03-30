@@ -9,13 +9,25 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>rabbitmq-consumer</artifactId>
+    <artifactId>dubbo-samples</artifactId>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>dubbo-provider</module>
+        <module>common-api</module>
+        <module>dubbo-consumer</module>
+    </modules>
+
+    <properties>
+        <dubbo.version>2.7.5</dubbo.version>
+    </properties>
 
     <dependencies>
+        <!-- Dubbo Spring Boot Starter -->
         <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-amqp</artifactId>
+            <groupId>org.apache.dubbo</groupId>
+            <artifactId>dubbo-spring-boot-starter</artifactId>
+            <version>${dubbo.version}</version>
         </dependency>
     </dependencies>
-
 </project>

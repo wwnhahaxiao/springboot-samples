@@ -1,0 +1,11 @@
+server:
+  port: 6010
+spring:
+  application:
+    name: provider-demo
+dubbo:
+  protocol:
+    name: dubbo
+    port: 36010
+  registry:
+    address: N/A
