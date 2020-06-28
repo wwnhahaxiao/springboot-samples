@@ -21,7 +21,8 @@
         <module>dubbo-samples</module>
 		<module>rabbitmq-samples</module>
         <module>spring-security</module>
-    </modules>
+		<module>log-trace</module>
+	</modules>
 
 	<properties>
 		<java.version>1.8</java.version>

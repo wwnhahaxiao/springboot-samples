@@ -1,0 +1,9 @@
+server:
+  port: 8001
+logging:
+  #log file path
+  path: log-trace/logs/
+  level:
+    root: info
+  pattern:
+    level: trace-id:%X{trace-id} %5p
