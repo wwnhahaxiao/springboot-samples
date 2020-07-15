@@ -22,7 +22,8 @@
 		<module>rabbitmq-samples</module>
         <module>spring-security</module>
 		<module>log-trace</module>
-	</modules>
+        <module>sentinel-samples</module>
+    </modules>
 
 	<properties>
 		<java.version>1.8</java.version>
