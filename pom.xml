@@ -23,6 +23,7 @@
         <module>spring-security</module>
 		<module>log-trace</module>
         <module>sentinel-samples</module>
+        <module>xml-param-samples</module>
     </modules>
 
 	<properties>
