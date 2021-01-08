@@ -24,7 +24,8 @@
 		<module>log-trace</module>
         <module>sentinel-samples</module>
         <module>xml-param-samples</module>
-    </modules>
+		<module>docker-samples</module>
+	</modules>
 
 	<properties>
 		<java.version>1.8</java.version>
