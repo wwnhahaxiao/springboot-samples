@@ -1,0 +1,22 @@
+2022-03-04 10:15:55.924 trace-id:  INFO 103752 --- [main] com.roshan.Application                   : Starting Application on WWNWORK with PID 103752 (E:\roshan\springboot-samples\log-trace\target\classes started by 36143 in E:\roshan\springboot-samples)
+2022-03-04 10:15:55.933 trace-id:  INFO 103752 --- [main] com.roshan.Application                   : No active profile set, falling back to default profiles: default
+2022-03-04 10:16:04.010 trace-id:  INFO 103752 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8001 (http)
+2022-03-04 10:16:04.136 trace-id:  INFO 103752 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-04 10:16:04.137 trace-id:  INFO 103752 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
+2022-03-04 10:16:04.512 trace-id:  INFO 103752 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-03-04 10:16:04.513 trace-id:  INFO 103752 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 8353 ms
+2022-03-04 10:16:05.238 trace-id:  INFO 103752 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-03-04 10:16:06.169 trace-id:  INFO 103752 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8001 (http) with context path ''
+2022-03-04 10:16:06.178 trace-id:  INFO 103752 --- [main] com.roshan.Application                   : Started Application in 12.241 seconds (JVM running for 14.409)
+2022-03-04 10:16:12.240 trace-id:  INFO 103752 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-03-04 10:16:25.375 trace-id:  INFO 109492 --- [main] com.roshan.Application                   : Starting Application on WWNWORK with PID 109492 (E:\roshan\springboot-samples\log-trace\target\classes started by 36143 in E:\roshan\springboot-samples)
+2022-03-04 10:16:25.397 trace-id:  INFO 109492 --- [main] com.roshan.Application                   : No active profile set, falling back to default profiles: default
+2022-03-04 10:16:37.363 trace-id:  INFO 109492 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8001 (http)
+2022-03-04 10:16:37.497 trace-id:  INFO 109492 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-04 10:16:37.498 trace-id:  INFO 109492 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
+2022-03-04 10:16:38.324 trace-id:  INFO 109492 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-03-04 10:16:38.325 trace-id:  INFO 109492 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 12641 ms
+2022-03-04 10:16:40.896 trace-id:  INFO 109492 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-03-04 10:16:42.598 trace-id:  INFO 109492 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8001 (http) with context path ''
+2022-03-04 10:16:42.612 trace-id:  INFO 109492 --- [main] com.roshan.Application                   : Started Application in 20.278 seconds (JVM running for 23.522)
+2022-03-04 10:17:06.183 trace-id:  INFO 109492 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'

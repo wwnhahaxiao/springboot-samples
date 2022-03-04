@@ -25,7 +25,8 @@
         <module>sentinel-samples</module>
         <module>xml-param-samples</module>
 		<module>docker-samples</module>
-	</modules>
+        <module>mybatis-plus-samples</module>
+    </modules>
 
 	<properties>
 		<java.version>1.8</java.version>
